@@ -5,7 +5,7 @@ const getPokes = () =>{
 
     for (let i = 1; i <=10; i++) {
         axios.get("https://pokeapi.co/api/v2/pokemon/"+i+"/").then((response) => {
-        parent.innerHTML +=  `
+        parent.innerHTML += /*html*/ `
         <div class=card>
         <img class=card-img-top src="${response.data.sprites.front_default}" alt=Card image cap>
         <div class=card-body>
