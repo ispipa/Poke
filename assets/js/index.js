@@ -19,12 +19,14 @@ const printPokes =  async(name,url) => {
     console.log(pokes);
    pokes.map((poke) => {
     parentIndex.innerHTML +=  `
+    <a href="item.html?id=${poke.id}">
         <div class=card>
         <img class=card-img-top src="${poke.sprites.front_default}" alt=Card image cap>
         <div class='card-body text-center'>
             <h5 class=card-title>${poke.name}</h5>
         </div>
         </div>
+    </a>
         `;
     });
 }
