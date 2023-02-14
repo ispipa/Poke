@@ -16,14 +16,5 @@ document.querySelector("#searchForm").addEventListener("submit", (e)=>{
         </div>
         `;
 
-        let abilities = "";
-        response.data.abilities.forEach(item => {
-            abilities += `<p>Habilidad: ${item.ability.name}</p>`;
-        })
-
-
-        document.querySelector("#pokemonAbilities").innerHTML = abilities;
-        }).catch((error) => {
-            console.log(error);
-        });
+    })
 })
