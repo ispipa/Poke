@@ -12,4 +12,5 @@ axios.get("https://pokeapi.co/api/v2/pokemon/"+koopId+"/").then((response) => {
     h2.innerHTML = response.data.forms[0].name;
     img.src = response.data.sprites.front_default;
     p.innerHTML = response.data.stats.base_stat;
+    
 }).catch((error) => {})
