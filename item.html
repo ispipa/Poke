@@ -8,12 +8,106 @@
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="./assets/logo/pngegg.png" style="width:40px;" >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search" id="searchForm">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="inputToSearch">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
     <div class="item">
         <img class="item__img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="img">
         <h2 class="item__h2">Bulbasaur</h2>
         <p class="item__p">Texto</p>
     </div>
+
+    <footer id="footer" class="text-center text-lg-start bg-white text-muted">
+
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <img class="img-group-footer" src="assets\imagenes\pokemon-company-international.webp"></img>
+          <div class="me-5 d-none d-lg-block">
+            <span id="siguenos">
+          </div>
+          <img class="img-group-footer" src="assets\imagenes\Pokemon.jpg"></img>
+    
+        </section>
+    
+    
+        <section class="section-footer">
+          <div class="container text-center text-md-start mt-5">
+    
+            <div class="row mt-3">
+              
+    
+    
+    
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div class="row">
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Merchandise
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Muñecos</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Cartas</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Colgantes</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Tazos</a>
+                  </p>
+                </div>
+                </div>
+                
+    
+    
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div class="row">
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Social media
+                  </h6>
+                  <p>
+                    <img class="img-social-media" src="assets\imagenes\insta.jpg"></img>
+                  </p>
+                  <p>
+                    <img class="img-social-media" src="assets\imagenes\face.png"></img>
+                  </p>
+                  <p>
+                    <img class="img-social-media" src="assets\imagenes\twitter.png"></img>
+      
+                  </p>
+                </div>
+    
+               
+    
+              </div>
+    
+            </div>
+    
+          </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © <span id="año actual"></span> Copyright
+        </div>
+    
+    
+      </footer>
 
 </body>
 </html>
